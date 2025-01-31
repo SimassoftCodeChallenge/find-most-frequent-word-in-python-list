@@ -12,8 +12,7 @@ class FrequentWordFinder:
     def word_count(self):
         return self._word_count
 
-    def _count_ocurrences(self):
-        print(self._wordlist)
+    def _count_ocurrences(self):        
         for word in self._wordlist:
             self._word_count[word] = self._word_count.get(word, 0) + 1
 
